@@ -1,0 +1,7 @@
+.icon {
+  --iconSize: #{fluidToLaptop(28, 24)};
+
+  @include square(var(--iconSize));
+
+  display: inline-flex;
+}

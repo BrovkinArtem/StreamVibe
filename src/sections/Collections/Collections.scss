@@ -1,0 +1,47 @@
+.collections {
+  --collectionsGroupPadding: #{fluidToLaptop(50, 40)};
+
+  padding-block: var(--section-padding-y);
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+
+  &.tabs {
+    --tabsBodyRowGap: #{fluidToLaptop(170, 138)};
+  }
+
+  &__group {
+    display: grid;
+    row-gap: fluid(100, 75);
+
+    @include mobile-above {
+      position: relative;
+      padding: var(--collectionsGroupPadding);
+      border: var(--border);
+      border-radius: var(--border-radius-l);
+    }
+  }
+
+  &__title {
+    position: absolute;
+    left: var(--collectionsGroupPadding);
+    top: 0;
+    translate: 0 -50%;
+    padding: fluidToLaptop(10, 8) fluidToLaptop(24, 20);
+    color: var(--color-white);
+    font-size: fluidToLaptop(20, 16);
+    font-weight: 600;
+    border-radius: var(--border-radius-s);
+    background-color: var(--color-red-45);
+
+    @include laptop {
+      border-radius: var(--border-radius-xs);
+    }
+  }
+
+  &__section {
+    &.section {
+      padding: 0;
+    }
+  }
+}

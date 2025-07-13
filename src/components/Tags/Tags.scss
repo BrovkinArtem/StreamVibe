@@ -1,0 +1,20 @@
+.tags {
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  &__item {
+    padding: fluidToLaptop(8, 6) fluidToLaptop(14, 12);
+    font-weight: 500;
+    color: var(--color-white);
+    border: var(--border);
+    border-radius: var(--border-radius-s);
+    background-color: var(--color-black-08);
+
+    @include  laptop {
+      border-radius: var(--border-radius-xs);
+    }
+  }
+}
