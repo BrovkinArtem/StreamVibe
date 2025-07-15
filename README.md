@@ -1,6 +1,6 @@
 # StreamVibe
 
-<img src="https://minista.qranoko.jp/assets/images/logo.svg" width="48" height="48" /><img src="https://skillicons.dev/icons?i=jsx,vite,scss,js,figma" />
+<img src="https://minista.qranoko.jp/assets/images/logo.svg" width="128" height="48" /><img src="https://skillicons.dev/icons?i=jsx,vite,scss,js,figma" />
 <!-- Добавьте скриншот главной страницы, если есть -->
 <!-- <img src="screenshots/home.png" width="100%" /> -->
 
