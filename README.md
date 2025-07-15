@@ -3,6 +3,8 @@
 <img src="https://minista.qranoko.jp/assets/images/logo.svg" width="128" height="48" />
 <img src="https://skillicons.dev/icons?i=react,vite,scss,js,figma" />
 
+<img src="https://github.com/BrovkinArtem/StreamVibe/blob/main/screenshots/home/stream_home1.png" width="100%" />
+
 
 ## 🚀 О проекте
 
