@@ -1,9 +1,8 @@
 # StreamVibe
 
 <img src="https://minista.qranoko.jp/assets/images/logo.svg" width="128" height="48" />
-<div align="left">
-  <img src="https://skillicons.dev/icons?i=jsx,vite,scss,js,figma" />
-</div>
+<img src="https://skillicons.dev/icons?i=react,vite,scss,js,figma" />
+
 
 ## 🚀 О проекте
 
